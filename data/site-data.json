@@ -1,0 +1,398 @@
+{
+  "site": {
+    "name": "Deepsikha Pramanick",
+    "year": "2026",
+    "footerLeft": "© 2026 Deepsikha Pramanick. All rights reserved.",
+    "footerRight": "Designed & coded with ♥ and curiosity."
+  },
+  "profile": {
+    "course": "B.Sc. (Hons.) Data Science & Artificial Intelligence",
+    "institution": "Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati",
+    "yearOfStudy": "Third Year",
+    "supervisor": "Dr. Rajiv Kumar Kar",
+    "supervisorAffiliation": "Jyoti and Bhupat Mehta School of Health Sciences & Technology, IIT Guwahati",
+    "tagline": "Bridging the gap between ideas and reality",
+    "aboutParagraphs": [
+      "Hi! I'm Deepsikha Pramanick, a Data Science & AI undergraduate student interested in computational approaches to scientific and engineering problems.",
+      "My academic path has crossed mathematics, physics, engineering and data science and artificial intelligence as I find it fascinating to explore solutions to real world problems with interdisciplinary approaches.",
+      "I am currently a third-year student pursuing a B.Sc. (Hons.) in Data Science & Artificial Intelligence at the Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati.",
+      "I am currently working under the supervision of Dr. Rajiv Kumar Kar [Assistant Professor, Jyoti and Bhupat Mehta School of Health Sciences & Technology; Associate Faculty, Centre for Nanotechnology; Visiting Faculty, CoN, AIIMS Guwahati].",
+      "My work explores computational and data-driven approaches to problems spanning scientific computing, molecular systems, machine learning, signal processing and engineering."
+    ],
+    "photo": "assets/images/DP_at_MFF_CARE_Conference_2025.JPG",
+    "resume": "assets/resume.pdf"
+  },
+  "hero": {
+    "kicker": "DATA SCIENCE × AI × MOLECULAR DESIGN × SUSTAINABLE TECHNOLOGY",
+    "title": "Exploring and trying to solve real-world problems with my !expertise ;D",
+    "status": "Computational Drug Design • ML • Seismology • MD Simulations • Green Tech • Game Dev"
+  },
+  "research": {
+    "pageTitle": "Questions I Want to Explore",
+    "intro": "My research interests sit at the intersection of the physical and digital worlds — where mathematics meets matter, data meets discovery, and questions open into infinity.",
+    "interests": [
+      {
+        "title": "Computational Drug Design",
+        "icon": "⌬",
+        "description": "Computational approaches to molecular modelling, drug discovery and biomolecular systems."
+      },
+      {
+        "title": "Machine Learning & AI",
+        "icon": "◈",
+        "description": "Data-driven methods for scientific, biological and engineering problems."
+      },
+      {
+        "title": "Molecular Dynamics & Simulation",
+        "icon": "⚛",
+        "description": "Exploring molecular behaviour through simulation, modelling and computational analysis."
+      },
+      {
+        "title": "Seismology & Signal Processing",
+        "icon": "〰",
+        "description": "Seismic signals, event detection, representation and forecasting."
+      },
+      {
+        "title": "Mathematics, Statistics & Physics",
+        "icon": "∑",
+        "description": "Foundations for modelling, inference, computation and understanding physical systems."
+      },
+      {
+        "title": "Green Technology & Engineering",
+        "icon": "♻",
+        "description": "Sustainable systems, computational engineering and environmentally conscious design."
+      }
+    ],
+    "blogTitle": "Thinking Through the Science",
+    "blogIntro": "Technical notes, research explorations and reflections on scientific machine learning, molecular simulation, seismology, engineering and the questions connecting them.",
+    "groupTitle": "Your Research Group",
+    "groupKicker": "AFFILIATION",
+    "groupDescription": "Replace this placeholder with your actual research group or laboratory name, affiliation and a short description of the research environment.",
+    "groupUrl": "#"
+  },
+  "projects": [
+    {
+      "title": "RNA Structure Prediction & Rapid Antiviral Drug Development — Level 1",
+      "status": "COMPLETED",
+      "image": "assets/images/rna photo.jpg",
+      "description": "Computational RNA structure prediction and rapid antiviral drug discovery using AI-driven scientific workflows.",
+      "tags": [
+        "AI / ML",
+        "RNA",
+        "Drug Design"
+      ],
+      "link": "https://github.com/Deepsikha001"
+    },
+    {
+      "title": "AI-Guided Design of BSA-Integrated Chitosan Hydrogels",
+      "status": "ONGOING",
+      "image": "assets/images/chitosan.png",
+      "description": "Integrating molecular docking, molecular dynamics, machine learning and targeted validation to optimize controlled drug release and wound-healing biomaterials.",
+      "tags": [
+        "AI / ML",
+        "Molecular Simulation",
+        "Drug Delivery",
+        "Wound Healing"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Site-Specific Acetylation & M. tuberculosis Hsp16.3",
+      "status": "COMPLETED",
+      "image": "assets/images/mycobacterium tuberculosis_.jpg",
+      "description": "Experimental and machine learning insights into how site-specific acetylation influences Hsp16.3 chaperone efficiency.",
+      "tags": [
+        "ML",
+        "Molecular Simulation",
+        "Biochemistry",
+        "Bioinformatics"
+      ],
+      "link": ""
+    },
+    {
+      "title": "AI Seismic Forecasting",
+      "status": "ONGOING",
+      "image": "assets/images/tumisu-earthquake-3167693_1920.jpg",
+      "description": "Exploring seismic signals, signal processing and machine learning for earthquake forecasting.",
+      "tags": [
+        "AI / ML",
+        "Seismology",
+        "Signal Processing",
+        "Time-series analysis and Forecasting",
+        "Parameter Estimation",
+        "Statistical Inference"
+      ],
+      "link": ""
+    },
+    {
+      "title": "RNA Structure Prediction & Rapid Antiviral Drug Development — Level 2",
+      "status": "ONGOING",
+      "image": "assets/images/rna photo.jpg",
+      "description": "Extending the RNA structure and antiviral discovery workflow toward more advanced computational structure prediction and drug design.",
+      "tags": [
+        "RNA",
+        "AI / ML",
+        "Drug Design"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Self-Controlled Mechanical Manhole",
+      "status": "ONGOING",
+      "image": "assets/images/manhole.avif",
+      "description": "Exploring a mechanically actuated manhole concept designed to operate without external electrical power.",
+      "tags": [
+        "Mechanical Design",
+        "Mechanisms",
+        "Safety"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Multi-Hazard Disaster-Resilient House",
+      "status": "ONGOING",
+      "image": "assets/images/disaster_free_home.avif",
+      "description": "Engineering concept for a resilient dwelling addressing earthquake, flood, tsunami, cyclone and other severe storm hazards.",
+      "tags": [
+        "Engineering",
+        "Disaster Resilience",
+        "Design"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Bhuscope",
+      "status": "ONGOING",
+      "image": "assets/images/bhu.avif",
+      "description": "An ongoing exploration at the intersection of sensing, data, earth systems and practical disaster-awareness technology.",
+      "tags": [
+        "Earth Systems",
+        "AI / ML",
+        "Technology"
+      ],
+      "link": ""
+    },
+    {
+      "title": "i_Agri",
+      "status": "ONGOING",
+      "image": "assets/images/i_agree.avif",
+      "description": "A technology-assisted agriculture concept focused on practical, data-informed support for farmers and agricultural decision-making.",
+      "tags": [
+        "AI / ML",
+        "Agriculture",
+        "Decision Support"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Connected Health Wearables",
+      "status": "ONGOING",
+      "image": "assets/images/healthwear.avif",
+      "description": "Exploring wearable systems for identifying important health changes and connecting users with local healthcare providers.",
+      "tags": [
+        "Wearables",
+        "Health Tech",
+        "Connected Systems"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Mechanical Personal Safety System",
+      "status": "ONGOING",
+      "image": "assets/images/self defence.avif",
+      "description": "Exploring a mechanically designed personal safety concept with emphasis on non-electronic operation, safe design and lawful use.",
+      "tags": [
+        "Mechanical Design",
+        "Safety",
+        "Product Design"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Fudoku",
+      "status": "GAME DEV",
+      "image": "assets/images/fudoku.avif",
+      "description": "An ongoing independent game-development project combining puzzle mechanics, programming and playful systems design.",
+      "tags": [
+        "Game Dev",
+        "C#",
+        "Indie Game"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Ghost Quest",
+      "status": "GAME DEV",
+      "image": "assets/images/fudoku.avif",
+      "description": "An ongoing game project exploring interactive storytelling, gameplay systems and digital world-building.",
+      "tags": [
+        "Game Dev",
+        "C#",
+        "Indie Game"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Game Asset Development",
+      "status": "GAME DEV",
+      "image": "assets/images/fudoku.avif",
+      "description": "Creating original visual and technical assets for independent game projects and interactive experiments.",
+      "tags": [
+        "Game Dev",
+        "3D / Assets",
+        "Creative Tech"
+      ],
+      "link": ""
+    }
+  ],
+  "blog": [
+    {
+      "category": "SCIENTIFIC ML",
+      "readTime": "6 MIN READ",
+      "year": "2026",
+      "title": "From Scientific Question to Machine Learning Pipeline",
+      "description": "Placeholder article. Discuss problem formulation, signal/data preparation, model design, validation and scientific interpretation.",
+      "url": "#",
+      "status": "DRAFT"
+    },
+    {
+      "category": "SEISMOLOGY",
+      "readTime": "8 MIN READ",
+      "year": "2026",
+      "title": "What Makes a Seismic Signal Useful for ML?",
+      "description": "Placeholder technical note with figures, equations, references and code links.",
+      "url": "#",
+      "status": "DRAFT"
+    },
+    {
+      "category": "MOLECULAR SIMULATION",
+      "readTime": "7 MIN READ",
+      "year": "2026",
+      "title": "Understanding an MD Trajectory Beyond a Single Plot",
+      "description": "Placeholder note about RMSD, RMSF, sampling, stability and interpretation.",
+      "url": "#",
+      "status": "DRAFT"
+    },
+    {
+      "category": "ENGINEERING",
+      "readTime": "5 MIN READ",
+      "year": "2026",
+      "title": "Turning an Engineering Problem into a Computational Model",
+      "description": "Placeholder essay connecting assumptions, geometry, boundary conditions, simulation and validation.",
+      "url": "#",
+      "status": "DRAFT"
+    }
+  ],
+  "news": [
+    {
+      "date": "28 AUG 2026",
+      "title": "Conference / Event",
+      "description": "“Presented at ___ today.” Replace this with your actual WhatsApp-status-style update and image.",
+      "image": "assets/images/project-placeholder.svg",
+      "type": "CONFERENCE"
+    },
+    {
+      "date": "RECENT",
+      "title": "Research milestone",
+      "description": "Short note about a new experiment, result, poster or project milestone.",
+      "image": "assets/images/hero-scientific.svg",
+      "type": "RESEARCH"
+    },
+    {
+      "date": "RECENT",
+      "title": "New project",
+      "description": "Started a new scientific or engineering project.",
+      "image": "assets/images/project-placeholder.svg",
+      "type": "PROJECT"
+    }
+  ],
+  "toolkit": [
+    {
+      "title": "Programming & Scripting",
+      "icon": "⌘",
+      "tools": [
+        "Python",
+        "C",
+        "C#",
+        "R",
+        "Java",
+        "SQL",
+        "Bash",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Data Science",
+      "icon": "◉",
+      "tools": [
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "scikit-learn",
+        "PyTorch",
+        "Jupyter",
+        "Git"
+      ]
+    },
+    {
+      "title": "Molecular Dynamics Simulation",
+      "icon": "⌬",
+      "tools": [
+        "GROMACS",
+        "CHARMM-GUI",
+        "AMBER"
+      ]
+    },
+    {
+      "title": "Scientific Computing & HPC",
+      "icon": "▤",
+      "tools": [
+        "PARAM Kamrupa",
+        "HPC",
+        "Linux",
+        "Bash Scripting"
+      ]
+    },
+    {
+      "title": "Computational Chemistry & DFT",
+      "icon": "⚛",
+      "tools": [
+        "Avogadro",
+        "BURAI",
+        "JDK",
+        "VESTA",
+        "Quantum ESPRESSO"
+      ]
+    },
+    {
+      "title": "Engineering Design & Simulation",
+      "icon": "⚙",
+      "tools": [
+        "SolidWorks",
+        "Fusion 360",
+        "AutoCAD"
+      ]
+    },
+    {
+      "title": "Data Visualization",
+      "icon": "▥",
+      "tools": [
+        "Matplotlib",
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  ],
+  "contact": {
+    "cta": "CONTACT DETAILS OF YOUR FRIENDLY NEIGHBOURHOOD DINO GOES HERE →",
+    "github": "https://github.com/Deepsikha001",
+    "linkedin": "https://www.linkedin.com/in/deepsikha-pramanick",
+    "email": "mailto:deepsikha.pramanick@gmail.com",
+    "institutionalEmail": "mailto:d.pramanick@op.iitg.ac.in",
+    "researchgate": "https://www.researchgate.net/profile/Deepsikha-Pramanick?ev=hdr_xprf",
+    "kaggle": "https://www.kaggle.com/deepsikhapramanick",
+    "itch": "https://uau-uau.itch.io/",
+    "scholar": "https://scholar.google.com/"
+  }
+}
