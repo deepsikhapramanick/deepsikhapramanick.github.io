@@ -284,11 +284,23 @@
   ],
   "news": [
     {
-      "date": "28 AUG 2026",
-      "title": "Conference / Event",
-      "description": "“Presented at ___ today.” Replace this with your actual WhatsApp-status-style update and image.",
-      "image": "assets/images/project-placeholder.svg",
-      "type": "CONFERENCE"
+      "title": "New update",
+      "status": "CURRENT",
+      "description": "",
+      "date": "",
+      "category": "News"
+    },
+    {
+      "date": "DEC 8, 2025 ",
+      "title": "Conference ",
+      "description": "Went to my first international conference, MFF CARE Conference at Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati and presented my poster titled \"Adaptive AI Pipeline for RNA 3D Structure Prediction and Drug Discovery\"",
+      "image": "assets\\images\\mffcaregroup.jpg",
+      "type": "CONFERENCE",
+      "status": "",
+      "url": "",
+      "category": "",
+      "linkText": "",
+      "id": "8b0d939c-f0bb-48de-87e0-f0c663f11bc4"
     },
     {
       "date": "RECENT",
