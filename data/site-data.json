@@ -307,11 +307,16 @@
       "id": "8b0d939c-f0bb-48de-87e0-f0c663f11bc4"
     },
     {
-      "date": "RECENT",
-      "title": "Research milestone",
-      "description": "Short note about a new experiment, result, poster or project milestone.",
-      "image": "assets/images/hero-scientific.svg",
-      "type": "RESEARCH"
+      "date": "JUNE, 2026",
+      "title": "Completed My First Research Paper",
+      "description": "Completed my first research paper on Site-Specific Acetylation & M. tuberculosis Hsp16.3 as second author under the supervision of Dr. Rajiv Kumar Kar, JBMSHST, IITG and Dr. Ashis Biswas, School of Basic Sciences (Chemistry), IIT Bhubaneswar. ",
+      "image": "assets\\images\\mycobacterium tuberculosis_.jpg",
+      "type": "RESEARCH",
+      "status": "Under Review",
+      "url": "",
+      "category": "",
+      "linkText": "",
+      "id": "e053bd8a-4443-41ce-8d75-16301a0c1715"
     },
     {
       "date": "RECENT",
