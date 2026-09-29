@@ -319,11 +319,16 @@
       "id": "e053bd8a-4443-41ce-8d75-16301a0c1715"
     },
     {
-      "date": "RECENT",
-      "title": "New project",
-      "description": "Started a new scientific or engineering project.",
-      "image": "assets/images/project-placeholder.svg",
-      "type": "PROJECT"
+      "date": "AuG, 2026 to present",
+      "title": "Started a New Project in Game Dev",
+      "description": "Something is being cooked, stay tuned",
+      "image": "",
+      "type": "PROJECT",
+      "status": "Ongoing",
+      "url": "",
+      "category": "",
+      "linkText": "",
+      "id": "e46009f5-7e39-4a52-8a97-376abfb0bf61"
     }
   ],
   "toolkit": [
