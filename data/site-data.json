@@ -420,5 +420,27 @@
     "kaggle": "https://www.kaggle.com/deepsikhapramanick",
     "itch": "https://uau-uau.itch.io/",
     "scholar": "https://scholar.google.com/"
-  }
+  },
+  "gallery": [
+    {
+      "title": "DP @ MFF CARE Conference",
+      "category": "CONFERENCE",
+      "date": "DEC 8, 2025",
+      "image": "assets\\images\\mffcaresolo.jpg",
+      "alt": "",
+      "caption": "Me presenting the poster to judges.",
+      "url": "",
+      "id": "347e50b6-80a3-4be0-99e7-0faabbb599a7"
+    },
+    {
+      "title": "DP @ One Health Ideathon",
+      "category": "CONFERENCE",
+      "date": "SEP 21, 2026",
+      "image": "assets\\images\\onehealthsolo.heic",
+      "alt": "",
+      "caption": "Me with One Health Ideathon Poster.",
+      "url": "",
+      "id": "8a537832-41b9-4b55-a464-adabda62adc5"
+    }
+  ]
 }

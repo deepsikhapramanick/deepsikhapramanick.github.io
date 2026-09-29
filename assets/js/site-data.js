@@ -58,7 +58,10 @@ function renderIndex(data) {
 
   if (projectGrid && Array.isArray(data.projects)) {
 
-    const selectedProjects = data.projects.slice(0, 4);
+    const featured = data.projects.filter(project => project.featured);
+
+const selectedProjects =
+  (featured.length ? featured : data.projects).slice(0, 4);
 
     projectGrid.innerHTML = selectedProjects.map((project, index) => `
       <article class="project-card">
@@ -523,3 +526,268 @@ function renderContact(data) {
     });
   });
 }
+/*
+=========================================================
+ADD TO THE END OF assets/js/site-data.js
+=========================================================
+
+Then make ONE small change near the top:
+replace the existing calls:
+
+    renderIndex(data);
+    renderProjects(data);
+    renderBlog(data);
+    renderUpdates(data);
+    renderResearch(data);
+    renderAbout(data);
+    renderContact(data);
+
+with:
+
+    renderIndex(data);
+    renderProjects(data);
+    renderBlog(data);
+    renderUpdates(data);
+    renderResearch(data);
+    renderAbout(data);
+    renderContact(data);
+    renderGallery(data);
+    renderCertificates(data);
+
+The two functions below make Gallery and Certificates
+data-driven. They use flexible selectors because the
+existing gallery/certificates HTML can differ.
+=========================================================
+*/
+
+function renderGallery(data){
+
+  const source =
+    Array.isArray(data.gallery)
+      ? data.gallery
+      : [];
+
+  const containers = [
+    document.querySelector(".gallery-grid"),
+    document.querySelector("#gallery .gallery-grid"),
+    document.querySelector(".gallery-list"),
+    document.querySelector("#gallery .gallery-list")
+  ].filter(Boolean);
+
+  const gallery =
+    containers[0];
+
+  if(!gallery){
+    return;
+  }
+
+  gallery.innerHTML =
+    source.map(item => `
+
+      <article class="gallery-item">
+
+        <div class="gallery-image">
+
+          <img
+            src="${normalizePath(
+              item.image ||
+              item.imagePath ||
+              ""
+            )}"
+            alt="${esc(
+              item.alt ||
+              item.altText ||
+              item.title ||
+              ""
+            )}">
+
+        </div>
+
+        <div class="gallery-content">
+
+          ${
+            item.category
+              ? `<div class="gallery-category">
+                   ${esc(item.category)}
+                 </div>`
+              : ""
+          }
+
+          <h3>
+            ${esc(
+              item.title ||
+              item.name ||
+              ""
+            )}
+          </h3>
+
+          ${
+            item.caption ||
+            item.description
+              ? `<p>
+                   ${esc(
+                     item.caption ||
+                     item.description
+                   )}
+                 </p>`
+              : ""
+          }
+
+          ${
+            item.url
+              ? `<a
+                   class="arrow"
+                   href="${esc(item.url)}"
+                   target="_blank"
+                   rel="noopener">
+                   VIEW ↗
+                 </a>`
+              : ""
+          }
+
+        </div>
+
+      </article>
+
+    `).join("");
+}
+
+
+function renderCertificates(data){
+
+  const source =
+    Array.isArray(data.certificates)
+      ? data.certificates
+      : [];
+
+  const containers = [
+    document.querySelector(".certificates-grid"),
+    document.querySelector("#certificates .certificates-grid"),
+    document.querySelector(".certificates-list"),
+    document.querySelector("#certificates .certificates-list")
+  ].filter(Boolean);
+
+  const certificates =
+    containers[0];
+
+  if(!certificates){
+    return;
+  }
+
+  certificates.innerHTML =
+    source.map(item => `
+
+      <article class="certificate-card">
+
+        <div class="certificate-image">
+
+          <img
+            src="${normalizePath(
+              item.image ||
+              item.imagePath ||
+              ""
+            )}"
+            alt="${esc(
+              item.alt ||
+              item.title ||
+              ""
+            )}">
+
+        </div>
+
+        <div class="certificate-content">
+
+          ${
+            item.category
+              ? `<div class="certificate-category">
+                   ${esc(item.category)}
+                 </div>`
+              : ""
+          }
+
+          <h3>
+            ${esc(
+              item.title ||
+              item.name ||
+              ""
+            )}
+          </h3>
+
+          ${
+            item.issuer ||
+            item.organization
+              ? `<div class="certificate-issuer">
+                   ${esc(
+                     item.issuer ||
+                     item.organization
+                   )}
+                 </div>`
+              : ""
+          }
+
+          ${
+            item.date ||
+            item.year
+              ? `<div class="certificate-date">
+                   ${esc(
+                     item.date ||
+                     item.year
+                   )}
+                 </div>`
+              : ""
+          }
+
+          ${
+            item.description ||
+            item.caption
+              ? `<p>
+                   ${esc(
+                     item.description ||
+                     item.caption
+                   )}
+                 </p>`
+              : ""
+          }
+
+          ${
+            item.url ||
+            item.credentialUrl
+              ? `<a
+                   class="arrow"
+                   href="${esc(
+                     item.url ||
+                     item.credentialUrl
+                   )}"
+                   target="_blank"
+                   rel="noopener">
+                   VIEW CREDENTIAL ↗
+                 </a>`
+              : ""
+          }
+
+        </div>
+
+      </article>
+
+    `).join("");
+}
+
+
+/*
+=========================================================
+OPTIONAL — SELECTED WORK CONTROL
+
+Your existing renderIndex() currently uses:
+
+    const selectedProjects = data.projects.slice(0, 4);
+
+Replace that ONE line with:
+
+    const featured = data.projects.filter(project => project.featured);
+    const selectedProjects =
+      (featured.length ? featured : data.projects).slice(0, 4);
+
+This makes the Homepage editor's Selected Work
+checkboxes control the four homepage cards.
+=========================================================
+*/
