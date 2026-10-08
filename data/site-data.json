@@ -12,6 +12,20 @@
     "supervisor": "Dr. Rajiv Kumar Kar",
     "supervisorAffiliation": "Jyoti and Bhupat Mehta School of Health Sciences & Technology, IIT Guwahati",
     "tagline": "Bridging the gap between ideas and reality",
+    "supervisors": [
+    {
+      "name": "Dr. Rajiv Kumar Kar",
+      "designation": "Assistant Professor",
+      "affiliation": "Jyoti and Bhupat Mehta School of Health Sciences & Technology, IIT Guwahati",
+      "url": "https://sites.google.com/view/rajivkumarkar/home"
+    },
+    {
+      "name": "Dr. Rhythm Grover",
+      "designation": "Assistant Professor",
+      "affiliation": "Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati",
+      "url": ""
+    }
+  ],
     "aboutParagraphs": [
       "Hi! I'm Deepsikha Pramanick, a Data Science & AI undergraduate student interested in computational approaches to scientific and engineering problems.",
       "My academic path has crossed mathematics, physics, engineering and data science and artificial intelligence as I find it fascinating to explore solutions to real world problems with interdisciplinary approaches.",

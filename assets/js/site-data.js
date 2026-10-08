@@ -442,9 +442,53 @@ function renderAbout(data) {
     const button =
       paragraphs.querySelector("a.btn");
 
-    paragraphs.innerHTML =
+        paragraphs.innerHTML =
       data.profile.aboutParagraphs
-        .map(text => `<p>${esc(text)}</p>`)
+        .map(text => {
+
+          let html = esc(text);
+
+          const supervisors =
+            Array.isArray(data.profile.supervisors)
+              ? data.profile.supervisors
+              : [];
+
+          supervisors.forEach(supervisor => {
+
+            if (
+              supervisor.name &&
+              supervisor.url
+            ) {
+
+              const safeName =
+                esc(supervisor.name);
+
+              const safeUrl =
+                esc(supervisor.url);
+
+              html = html.replace(
+                new RegExp(
+                  safeName.replace(
+                    /[.*+?^${}()|[\]\\]/g,
+                    "\\$&"
+                  ),
+                  "g"
+                ),
+                `<a
+                  class="supervisor-link"
+                  href="${safeUrl}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >${safeName}</a>`
+              );
+
+            }
+
+          });
+
+          return `<p>${html}</p>`;
+
+        })
         .join("");
 
     if (button) {
