@@ -20,7 +20,15 @@
       "My work explores computational and data-driven approaches to problems spanning scientific computing, molecular systems, machine learning, signal processing and engineering."
     ],
     "photo": "assets/images/DP_at_MFF_CARE_Conference_2025.JPG",
-    "resume": "assets/resume.pdf"
+    "resume": "assets/resume.pdf",
+    "supervisors": [
+      {
+        "name": "Dr. Rajiv Kumar Kar",
+        "designation": "Assistant Professor",
+        "affiliation": "Jyoti and Bhupat Mehta School of Health Sciences & Technology, IIT Guwahati",
+        "url": "https://sites.google.com/view/rajivkumarkar/home"
+      }
+    ]
   },
   "hero": {
     "kicker": "DATA SCIENCE × AI × MOLECULAR DESIGN × SUSTAINABLE TECHNOLOGY",
